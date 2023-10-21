@@ -20,5 +20,11 @@ public class Author {
      private Integer age;
 
 
+     public Author(String name, Integer age) {
+          this.name = name;
+          this.age = age;
+     }
+
+
 
 }
